@@ -1,21 +1,87 @@
-# FortiGate – Přidání externího IP feedu (huntershield.hunterbox.cz)
+# Přidání HunterShield feeds do FortiGate firewallu
 
-Tento návod popisuje, jak přidat externí IP seznam z Huntershield do FortiGate pomocí External Connector.
+Tento návod popisuje, jak nakonfigurovat FortiGate firewall pro využití threat security feedu ze vzdálené adresy:
 
-## Požadavky
+```python
+huntershield.hunterbox.cz/IPs
+```
 
-- FortiGate s firmwarem **6.4 nebo novějším**
-- Přístup k webovému rozhraní FortiGate
-- Přístup k IP feedu: `https://huntershield.hunterbox.cz/IPs.json`
-- Uživatelské jméno a heslo pro přístup k feedu
+---
 
-## Omezující faktory FortiGate
+## 1. Varianty přístupu
 
-- **FortiGate neumí zpracovat JSON** jako formát pro IP feedy – očekává čistý **textový seznam IP adres** (1 IP na řádek).
-- **HTTP autentizace (Basic Auth)** není oficiálně podporována pro External Connectors ve většině verzí.
+- **Pevná IP adresa** – klient musí zajistit, že FortiGate firewall používá pevnou veřejnou IP adresu, která je na whitelistu na straně feedu. Tento způsob nevyžaduje autentizaci.
+- **Autentizace uživatel / heslo** – pokud klient nemá pevnou IP, je možné použít Basic Authentication s uživatelským jménem a heslem.
 
-## Doporučené řešení
+---
 
-### 1. Převod feedu na čistý text
+## 2. Konfigurace pomocí pevné IP
 
-Pokud to je možné, připrav si URL, která poskytne IP adresy v čistém formátu `.txt`, např.:
+### Předpoklady
+
+- Vaše veřejná IP adresa je zařazena na whitelistu feedu.
+- URL feedu: `http://huntershield.hunterbox.cz/IPs`
+
+### Postup
+
+1. Přihlaste se do FortiGate GUI.
+2. Přejděte do sekce **Security Fabric > Fabric Connectors > External Feeds**.
+3. Klikněte na **Create New**.
+4. Vyplňte následující údaje:
+
+   - **Name:** HunterShield Threat Feed
+   - **Type:** HTTP Feed
+   - **URL:** `http://huntershield.hunterbox.cz/IPs`
+   - **Authentication:** None
+   - **Update Interval:** Nastavte dle potřeby (např. 1 hodina)
+
+5. Uložte konfiguraci.
+6. Ověřte, že feed je aktivní a data jsou přijímána.
+
+---
+
+## 3. Konfigurace pomocí Basic Authentication (uživatel/heslo)
+
+### Předpoklady
+
+- Přístupová data (uživatelské jméno a heslo) vám byla poskytnuta.
+- URL feedu: `http://huntershield.hunterbox.cz/IPs`
+
+### Postup
+
+1. Přihlaste se do FortiGate GUI.
+2. Přejděte do sekce **Security Fabric > Fabric Connectors > External Feeds**.
+3. Klikněte na **Create New**.
+4. Vyplňte následující údaje:
+
+   - **Name:** HunterShield Threat Feed (Authenticated)
+   - **Type:** HTTP Feed
+   - **URL:** `http://huntershield.hunterbox.cz/IPs`
+   - **Authentication:** Basic
+   - **Username:** *váš uživatel*
+   - **Password:** *vaše heslo*
+   - **Update Interval:** Nastavte dle potřeby (např. 1 hodina)
+
+5. Uložte konfiguraci.
+6. Ověřte, že feed je aktivní a data jsou přijímána.
+
+---
+
+## 4. Tipy a doporučení
+
+- Udržujte přístupová data v bezpečí, nesdílejte je veřejně.
+- Pokud používáte Basic Authentication, doporučujeme používat HTTPS pro zabezpečení přenosu.
+- Pokud máte možnost, upřednostněte přístup přes pevnou IP adresu.
+
+---
+
+## 5. Kontakty a podpora
+
+V případě problémů kontaktujte:
+
+- Email: support@hunterbox.cz
+- Web: https://huntershield.hunterbox.cz/support
+
+---
+
+*Dokumentace je veřejná a slouží jako návod pro rychlé nastavení FortiGate firewallů.*
