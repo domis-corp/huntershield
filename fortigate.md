@@ -3,7 +3,7 @@
 Tento návod popisuje, jak nakonfigurovat FortiGate firewall pro využití threat security feedu ze vzdálené adresy:
 
 ```python
-huntershield.hunterbox.cz/IPs
+https://huntershield.hunterbox.cz/ips
 ```
 
 ---
@@ -20,7 +20,7 @@ huntershield.hunterbox.cz/IPs
 ### Předpoklady
 
 - Vaše veřejná IP adresa je zařazena na whitelistu feedu.
-- URL feedu: `http://huntershield.hunterbox.cz/IPs`
+- URL feedu: `http://huntershield.hunterbox.cz/ips`
 
 ### Postup
 
@@ -31,7 +31,7 @@ huntershield.hunterbox.cz/IPs
 
    - **Name:** HunterShield Threat Feed
    - **Type:** HTTP Feed
-   - **URL:** `http://huntershield.hunterbox.cz/IPs`
+   - **URL:** `http://huntershield.hunterbox.cz/ips`
    - **Authentication:** None
    - **Update Interval:** Nastavte dle potřeby (např. 1 hodina)
 
@@ -45,7 +45,7 @@ huntershield.hunterbox.cz/IPs
 ### Předpoklady
 
 - Přístupová data (uživatelské jméno a heslo) vám byla poskytnuta.
-- URL feedu: `http://huntershield.hunterbox.cz/IPs`
+- URL feedu: `http://huntershield.hunterbox.cz/ips`
 
 ### Postup
 
@@ -56,7 +56,7 @@ huntershield.hunterbox.cz/IPs
 
    - **Name:** HunterShield Threat Feed (Authenticated)
    - **Type:** HTTP Feed
-   - **URL:** `http://huntershield.hunterbox.cz/IPs`
+   - **URL:** `http://huntershield.hunterbox.cz/ips`
    - **Authentication:** Basic
    - **Username:** *váš uživatel*
    - **Password:** *vaše heslo*
