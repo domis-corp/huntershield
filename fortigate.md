@@ -67,20 +67,11 @@ huntershield.hunterbox.cz/IPs
 
 ---
 
-## 4. Tipy a doporučení
-
-- Udržujte přístupová data v bezpečí, nesdílejte je veřejně.
-- Pokud používáte Basic Authentication, doporučujeme používat HTTPS pro zabezpečení přenosu.
-- Pokud máte možnost, upřednostněte přístup přes pevnou IP adresu.
-
----
-
-## 5. Kontakty a podpora
+## 4. Kontakty a podpora
 
 V případě problémů kontaktujte:
 
-- Email: support@hunterbox.cz
-- Web: https://huntershield.hunterbox.cz/support
+- Email: help@hunterbox.cz
 
 ---
 
