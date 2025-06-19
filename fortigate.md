@@ -10,8 +10,8 @@ https://huntershield.hunterbox.cz/ips
 
 ## 1. Varianty přístupu
 
-- **Pevná IP adresa** – klient musí zajistit, že FortiGate firewall používá pevnou veřejnou IP adresu, která je na whitelistu na straně feedu. Tento způsob nevyžaduje autentizaci.
-- **Autentizace uživatel / heslo** – pokud klient nemá pevnou IP, je možné použít Basic Authentication s uživatelským jménem a heslem.
+- **Pevná IP adresa** – klient nemá možnost použít autentizaci přes https.
+- **Autentizace uživatel / heslo** – klient má dostupnou možnost autentize uživatelským jménem a heslem.
 
 ---
 
@@ -19,8 +19,8 @@ https://huntershield.hunterbox.cz/ips
 
 ### Předpoklady
 
-- Vaše veřejná IP adresa je zařazena na whitelistu feedu.
-- URL feedu: `http://huntershield.hunterbox.cz/ips`
+- Vaše veřejná IP adresa je zařazena na whitelistu feedu, je potřeba předat technickému oddělení služby HunterShield
+- dostupnost IPs feedu: `http://huntershield.hunterbox.cz/ips`
 
 ### Postup
 
@@ -29,8 +29,8 @@ https://huntershield.hunterbox.cz/ips
 3. Klikněte na **Create New**.
 4. Vyplňte následující údaje:
 
-   - **Name:** HunterShield Threat Feed
-   - **Type:** HTTP Feed
+   - **Name:** HunterShield IP Feed
+   - **Type:** IP Feed
    - **URL:** `http://huntershield.hunterbox.cz/ips`
    - **Authentication:** None
    - **Update Interval:** Nastavte dle potřeby (např. 1 hodina)
@@ -44,8 +44,8 @@ https://huntershield.hunterbox.cz/ips
 
 ### Předpoklady
 
-- Přístupová data (uživatelské jméno a heslo) vám byla poskytnuta.
-- URL feedu: `http://huntershield.hunterbox.cz/ips`
+- Přístupová data (kontaktujte technické oddělení služby HunterShield) vám byla poskytnuta.
+- URL feedu: `https://huntershield.hunterbox.cz/ips`
 
 ### Postup
 
@@ -54,12 +54,12 @@ https://huntershield.hunterbox.cz/ips
 3. Klikněte na **Create New**.
 4. Vyplňte následující údaje:
 
-   - **Name:** HunterShield Threat Feed (Authenticated)
-   - **Type:** HTTP Feed
+   - **Name:** HunterShield IP Feed
+   - **Type:** IP Feed
    - **URL:** `http://huntershield.hunterbox.cz/ips`
    - **Authentication:** Basic
-   - **Username:** *váš uživatel*
-   - **Password:** *vaše heslo*
+   - **Username:** *uživatel*
+   - **Password:** *heslo*
    - **Update Interval:** Nastavte dle potřeby (např. 1 hodina)
 
 5. Uložte konfiguraci.
@@ -74,5 +74,3 @@ V případě problémů kontaktujte:
 - Email: help@hunterbox.cz
 
 ---
-
-*Dokumentace je veřejná a slouží jako návod pro rychlé nastavení FortiGate firewallů.*
