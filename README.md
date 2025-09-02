@@ -37,24 +37,24 @@ snadno integrovat do většiny stávajících bezpečnostních infrastruktur bez
 nutnosti výměny zařízení nebo složitých úprav.
 
 Kompatibilní s nejpoužívanějšími platformami na trhu:
-• Fortinet (FortiGate)
-• Cisco (ASA, Firepower)
-• Palo Alto Networks
-• Check Point
-• MikroTik
-• Juniper Networks
-• SonicWall
-• pfSense / OPNsense
-• Sophos UTM / XG
-• WatchGuard
-• Untangle / NG Firewall
-• Clavister
-• a další zařízení, která podporují vlastní custom blocklisty nebo threat
+- Fortinet (FortiGate)
+- Cisco (ASA, Firepower)
+- Palo Alto Networks
+- Check Point
+- MikroTik
+- Juniper Networks
+- SonicWall
+- pfSense / OPNsense
+- Sophos UTM / XG
+- WatchGuard
+- Untangle / NG Firewall
+- Clavister
+- a další zařízení, která podporují vlastní custom blocklisty nebo threat
 feeds ve formátech jako:
 
-• IP adresy
-• Domény (DNS)
-• URL adresy
+- IP adresy
+- Domény (DNS)
+- URL adresy
 
 Tato široká kompatibilita znamená, že ať už jste malá firma s Mikrotikem nebo
 enterprise organizace s Fortinetem či Palo Altem, HunterShield se přizpůsobí
