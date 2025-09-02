@@ -3,7 +3,7 @@
 Tento návod popisuje, jak nakonfigurovat FortiGate firewall pro využití threat security feedu ze vzdálené adresy:
 
 ```python
-https://huntershield.hunterbox.cz/ips
+huntershield.hunterbox.cz/ips
 ```
 
 ---
