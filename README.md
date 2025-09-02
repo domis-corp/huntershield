@@ -56,9 +56,6 @@ feeds ve formátech jako:
 - Domény (DNS)
 - URL adresy
 
-Tato široká kompatibilita znamená, že ať už jste malá firma s Mikrotikem nebo
-enterprise organizace s Fortinetem či Palo Altem, HunterShield se přizpůsobí
-vašemu prostředí a rozšíří jeho detekční schopnosti.
 
 # Proč zvolit HunterShield?
 
