@@ -35,6 +35,8 @@ https://huntershield.hunterbox.cz/ips
    - **Authentication:** None
    - **Update Interval:** Nastavte dle potřeby (např. 1 hodina)
 
+![Result_Link](https://github.com/domis-corp/huntershield/blob/main/fortinet/images/HunterShiled-IPs-http.png)
+
 5. Uložte konfiguraci.
 6. Ověřte, že feed je aktivní a data jsou přijímána.
 
@@ -61,6 +63,8 @@ https://huntershield.hunterbox.cz/ips
    - **Username:** *uživatel*
    - **Password:** *heslo*
    - **Update Interval:** Nastavte dle potřeby (např. 1 hodina)
+
+![Result_Link](https://github.com/domis-corp/huntershield/blob/main/fortinet/images/HunterShiled-IPs-https.png)
 
 5. Uložte konfiguraci.
 6. Ověřte, že feed je aktivní a data jsou přijímána.
