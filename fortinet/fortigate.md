@@ -82,7 +82,5 @@ V případě problémů kontaktujte přes e-mail:
 ```python
 help@hunterbox.cz
 ```
-[user@example.com](mailto:user@example.com)
 
-[![Email](https://img.shields.io/badge/Email-user%40example.com-blue)](mailto:user@example.com)
 ---
