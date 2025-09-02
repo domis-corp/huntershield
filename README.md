@@ -37,7 +37,7 @@ snadno integrovat do většiny stávajících bezpečnostních infrastruktur bez
 nutnosti výměny zařízení nebo složitých úprav.
 
 Kompatibilní s nejpoužívanějšími platformami na trhu:
-- [Fortinet (FortiGate)](https://github.com/domis-corp/huntershield/blob/main/fortinet/fortigate.md)  
+- [Fortinet (FortiGate)](https://github.com/domis-corp/huntershield/blob/main/fortinet/readme.md)  
 - Cisco (ASA, Firepower)
 - Palo Alto Networks
 - Check Point
