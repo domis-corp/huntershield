@@ -23,10 +23,10 @@ Nasazením HunterShieldu významně posilujete bezpečnostní schopnosti celé
 vaší sítě, včetně ochrany koncových zařízení, serverů i cloudových služeb.
 
 Dostupné HunterShield feedy:
-• IP Adresy Známé škodlivé IP adresy z celého světa
-• Malicious Servery šířící malware nebo se chovající podezřele
-• Botnet Infrastruktura ovládaná hackery (C&C servery)
-• Phishing Falešné weby a domény pro podvodné získávání údajů
+- IP Adresy Známé škodlivé IP adresy z celého světa
+- Malicious Servery šířící malware nebo se chovající podezřele
+- Botnet Infrastruktura ovládaná hackery (C&C servery)
+- Phishing Falešné weby a domény pro podvodné získávání údajů
 
 # Podporované firewall platformy
 
