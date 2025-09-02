@@ -77,8 +77,10 @@ huntershield.hunterbox.cz/ips
 
 ## 4. Kontakty a podpora
 
-V případě problémů kontaktujte:
+V případě problémů kontaktujte přes e-mail:
 
-- Email: help@hunterbox.cz
+```python
+help@hunterbox.cz
+```
 
 ---
