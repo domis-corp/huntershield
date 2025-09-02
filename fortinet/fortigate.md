@@ -83,4 +83,5 @@ V případě problémů kontaktujte přes e-mail:
 help@hunterbox.cz
 ```
 
+[![Email](https://img.shields.io/badge/Email-user%40example.com-blue)](mailto:user@example.com)
 ---
