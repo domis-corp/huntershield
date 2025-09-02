@@ -25,8 +25,8 @@ https://huntershield.hunterbox.cz/ips
 ### Postup
 
 1. Přihlaste se do FortiGate GUI.
-2. Přejděte do sekce **Security Fabric > Fabric Connectors > External Feeds**.
-3. Klikněte na **Create New**.
+2. Přejděte do sekce **Security Fabric > External Feeds**.
+3. Klikněte na **Create New > IP Address**.
 4. Vyplňte následující údaje:
 
    - **Name:** HunterShield IP Feed
@@ -50,8 +50,8 @@ https://huntershield.hunterbox.cz/ips
 ### Postup
 
 1. Přihlaste se do FortiGate GUI.
-2. Přejděte do sekce **Security Fabric > Fabric Connectors > External Feeds**.
-3. Klikněte na **Create New**.
+2. Přejděte do sekce **Security Fabric > External Feeds**.
+3. Klikněte na **Create New > IP Address**.
 4. Vyplňte následující údaje:
 
    - **Name:** HunterShield IP Feed
